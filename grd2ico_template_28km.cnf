@@ -1,0 +1,22 @@
+&grd2ico_param 
+glevel = 8, 
+rlevel = 2, 
+hgrid_basename = '/gs/bs/tga-guc-lab/dependencies/dependencies_nicam/NICAM_DATABASE_GL08/hgrid/gl08/rl02/grid',
+vgrid_filename = '/gs/bs/tga-guc-lab/dependencies/dependencies_nicam/NICAM_DATABASE/vgrid/vgrid38.dat',
+output_dir = './'
+output_size = 4,
+ll_kmax = 1,
+ll_imax = 144,
+ll_jmax = 73,
+lon_ini = 0.0,
+lat_ini = -90.0,
+lon_inc = 2.5,
+lat_inc = 2.5,
+ntime = 1,
+read_latlon_data = .false.,
+yrev  = .false.
+vitpl_spline = .true. ,
+intpl_vgrid = .false.,
+atm_vmax = 0,
+sfc_vmax = 1,
+/

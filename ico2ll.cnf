@@ -1,0 +1,14 @@
+&ico2ll_param
+      glevel         = 8,
+      rlevel         = 2,
+      input_dir      = './',
+      output_dir     = './'
+      info_fname     = './check.info',
+      llmap_dir      = '/gs/bs/tga-guc-lab/dependencies/dependencies_nicam/NICAM_DATABASE_GL08/llmap/gl08/rl02/',
+      llmap_base     = 'llmap',
+      input_size     = 4,
+      init_year      = 2010,
+      init_month     = 7,
+      init_day       = 16,
+      access_icodata ='direct',
+/

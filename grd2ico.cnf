@@ -1,0 +1,24 @@
+&grd2ico_param 
+glevel = 8 
+rlevel = 2 
+hgrid_basename = '/gs/bs/tga-guc-lab/dependencies/dependencies_nicam/NICAM_DATABASE_GL08/hgrid/gl08/rl02/grid'
+vgrid_filename = '/gs/bs/tga-guc-lab/dependencies/dependencies_nicam/NICAM_DATABASE/vgrid/vgrid38.dat'
+output_dir = './'
+output_size = 4,
+ll_kmax = 1,
+ll_imax = 3600
+ll_jmax = 1801
+lon_ini = 0.0
+lat_ini = -90.0
+lon_inc = 0.1
+lat_inc = 0.1
+ntime = 1,
+read_latlon_data = .false.,
+yrev  = .false.
+vitpl_spline = .true. ,
+intpl_vgrid = .false.,
+atm_vmax = 0,
+sfc_vmax = 1,
+    ico_sfc_fname(1) = 'AHE_SSP3_2010_07_11HR_UTC'
+    ll_sfc_fname(1) = './output28km/AHE_SSP3_2010_07_11HR_UTC_0.1deg28km.bin'
+/
